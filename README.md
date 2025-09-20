@@ -184,7 +184,9 @@ Each visualization includes **built-in download functionality**:
 - **Publication-ready quality** with proper resolution and formatting
 
 ### 1. **Training Performance Analysis**
-![Training Performance](https://img.shields.io/badge/Chart-Line_Chart-blue)
+![Training Performance]()
+<img width="631" height="400" alt="performance_chart (1)" src="https://github.com/user-attachments/assets/b2433593-ca4a-4114-ada3-a61590320442" />
+
 
 Compares validation loss convergence across all three approaches:
 - **X-axis:** Training epochs
@@ -193,7 +195,9 @@ Compares validation loss convergence across all three approaches:
 - **Download:** PNG/SVG formats available
 
 ### 2. **Inference Latency Breakdown**
-![Latency Analysis](https://img.shields.io/badge/Chart-Bar_Chart-green)
+![Latency Analysis]()
+<img width="631" height="400" alt="latency_chart (1)" src="https://github.com/user-attachments/assets/c22ab278-8755-4dbd-88ca-dba5e7e05667" />
+
 
 Comprehensive latency comparison across all models:
 - **TTFT:** Time to First Token
@@ -203,7 +207,9 @@ Comprehensive latency comparison across all models:
 - **Download:** PNG/SVG formats available
 
 ### 3. **Memory Usage Analysis**
-![Memory Usage](https://img.shields.io/badge/Chart-Stacked_Bar-orange)
+![Memory Usage]()
+<img width="631" height="400" alt="memory_chart (1)" src="https://github.com/user-attachments/assets/48c6bb7f-0db8-4e97-be3c-0f35240a1f9f" />
+
 
 Component-wise memory consumption comparison:
 - Token embeddings efficiency
@@ -214,7 +220,9 @@ Component-wise memory consumption comparison:
 - **Download:** PNG/SVG formats available
 
 ### 4. **RoPE Frequency Visualization**
-![RoPE Analysis](https://img.shields.io/badge/Chart-Multi_Line-purple)
+![RoPE Analysis]()
+<img width="631" height="400" alt="rope_chart (1)" src="https://github.com/user-attachments/assets/c6f28097-195e-4745-a57f-264bcb53bdb9" />
+
 
 Detailed analysis of rotary position embedding patterns:
 - Multiple frequency components
@@ -247,16 +255,13 @@ Comprehensive performance comparison across all dimensions:
 ### 5. **Output Length Distribution**
 ![Output Analysis]()
 ![performance_chart (1)](https://github.com/user-attachments/assets/aaeba5b7-17c9-43d7-95a5-9b8f6b38cc47)
-
-
-Translation output length comparison:
-- Token cou<svg xmlns="http://www.w3.org/2000/svg" class="recharts-surface" width="631" height="400" viewBox="0 0 631 400" style="width: 100%; height: 100%;"><title/><desc/><defs><clipPath id="recharts1-clip"><rect x="65" y="5" height="336" width="561"/></clipPath></defs><g class="recharts-cartesian-grid"><g class="recharts-cartesian-grid-horizontal"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="561" height="336" x1="65" y1="341" x2="626" y2="341"/><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="561" height="336" x1="65" y1="257" x2="626" y2="257"/><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="561" height="336" x1="65" y1="173" x2="626" y2="173"/><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="561" height="336" x1="65" y1="89" x2="626" y2="89"/><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="561" height="336" x1="65" y1="5" x2="626" y2="5"/></g><g class="recharts-cartesian-grid-vertical"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="561" height="336" x1="65" y1="5" x2="65" y2="341"/><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="561" height="336" x1="345.5" y1="5" x2="345.5" y2="341"/><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="561" height="336" x1="626" y1="5" x2="626" y2="341"/></g></g><g class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"><line orientation="bottom" width="561" height="30" x="65" y="341" class="recharts-cartesian-axis-line" stroke="#666" fill="none" x1="65" y1="341" x2="626" y2="341"/><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="561" height="30" x="65" y="341" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="65" y1="347" x2="65" y2="341"/><text orientation="bottom" width="561" height="30" stroke="none" x="65" y="349" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="65" dy="0.71em">1</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="561" height="30" x="65" y="341" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="345.5" y1="347" x2="345.5" y2="341"/><text orientation="bottom" width="561" height="30" stroke="none" x="345.5" y="349" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="345.5" dy="0.71em">2</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="561" height="30" x="65" y="341" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="626" y1="347" x2="626" y2="341"/><text orientation="bottom" width="561" height="30" stroke="none" x="626" y="349" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="626" dy="0.71em">3</tspan></text></g></g></g><g class="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"><line orientation="left" width="60" height="336" x="5" y="5" class="recharts-cartesian-axis-line" stroke="#666" fill="none" x1="65" y1="5" x2="65" y2="341"/><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="336" x="5" y="5" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="341" x2="65" y2="341"/><text orientation="left" width="60" height="336" stroke="none" x="57" y="341" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">0</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="336" x="5" y="5" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="257" x2="65" y2="257"/><text orientation="left" width="60" height="336" stroke="none" x="57" y="257" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">2</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="336" x="5" y="5" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="173" x2="65" y2="173"/><text orientation="left" width="60" height="336" stroke="none" x="57" y="173" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">4</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="336" x="5" y="5" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="89" x2="65" y2="89"/><text orientation="left" width="60" height="336" stroke="none" x="57" y="89" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">6</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="336" x="5" y="5" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="5" x2="65" y2="5"/><text orientation="left" width="60" height="336" stroke="none" x="57" y="12" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">8</tspan></text></g></g><text offset="5" transform="rotate(-90, 10, 173)" x="10" y="173" class="recharts-text recharts-label" text-anchor="start" fill="#808080"><tspan x="10" dy="0.355em">Validation Loss</tspan></text></g><g class="recharts-layer recharts-line"><path stroke="#2563eb" stroke-width="3" fill="none" width="561" height="336" class="recharts-curve recharts-line-curve" stroke-dasharray="565.2386474609375px 0px" d="M65,164.6C158.5,185.32,252,206.04,345.5,210.8C439,215.56,532.5,216.75,626,217.94"/><g class="recharts-layer"/><g class="recharts-layer recharts-line-dots"><circle r="3" stroke="#2563eb" stroke-width="3" fill="#fff" width="561" height="336" cx="65" cy="164.6" class="recharts-dot recharts-line-dot"/><circle r="3" stroke="#2563eb" stroke-width="3" fill="#fff" width="561" height="336" cx="345.5" cy="210.8" class="recharts-dot recharts-line-dot"/><circle r="3" stroke="#2563eb" stroke-width="3" fill="#fff" width="561" height="336" cx="626" cy="217.94000000000003" class="recharts-dot recharts-line-dot"/></g></g><g class="recharts-layer recharts-line"><path stroke="#dc2626" stroke-width="3" fill="none" width="561" height="336" class="recharts-curve recharts-line-curve" stroke-dasharray="563.869384765625px 0px" d="M65,139.4C158.5,154.8,252,170.2,345.5,177.2C439,184.2,532.5,185.95,626,187.7"/><g class="recharts-layer"/><g class="recharts-layer recharts-line-dots"><circle r="3" stroke="#dc2626" stroke-width="3" fill="#fff" width="561" height="336" cx="65" cy="139.4" class="recharts-dot recharts-line-dot"/><circle r="3" stroke="#dc2626" stroke-width="3" fill="#fff" width="561" height="336" cx="345.5" cy="177.2" class="recharts-dot recharts-line-dot"/><circle r="3" stroke="#dc2626" stroke-width="3" fill="#fff" width="561" height="336" cx="626" cy="187.7" class="recharts-dot recharts-line-dot"/></g></g><g class="recharts-layer recharts-line"><path stroke="#059669" stroke-width="3" fill="none" width="561" height="336" class="recharts-curve recharts-line-curve" stroke-dasharray="567.2716064453125px 0px" d="M65,181.4C158.5,202.365,252,223.33,345.5,236C439,248.67,532.5,253.045,626,257.42"/><g class="recharts-layer"/><g class="recharts-layer recharts-line-dots"><circle r="3" stroke="#059669" stroke-width="3" fill="#fff" width="561" height="336" cx="65" cy="181.4" class="recharts-dot recharts-line-dot"/><circle r="3" stroke="#059669" stroke-width="3" fill="#fff" width="561" height="336" cx="345.5" cy="236" class="recharts-dot recharts-line-dot"/><circle r="3" stroke="#059669" stroke-width="3" fill="#fff" width="561" height="336" cx="626" cy="257.41999999999996" class="recharts-dot recharts-line-dot"/></g></g></svg>![Uploading performance_chart (1).svg…]()
 nt distributions
 - Quality vs length analysis
 - **Key Insight:** RoPE generates unnecessarily verbose translations
 
 ### 6. **Overall Efficiency Metrics**
-![Efficiency Radar](https://img.shields.io/badge/Chart-Radar_Chart-indigo)
+![Efficiency Radar]()
+<img width="631" height="400" alt="efficiency_chart (1)" src="https://github.com/user-attachments/assets/a5581fe5-0850-493d-b3c5-5e31c403eefb" />
 
 Comprehensive performance comparison:
 - Training convergence
@@ -670,10 +675,11 @@ npm start
 
 ## 📞 Support
 
-- 📧 **Email:** your.email@university.edu
-- 🐛 **Issues:** [GitHub Issues](https://github.com/yourusername/nmt-visualizations/issues)
-- 📖 **Documentation:** [Project Wiki](https://github.com/yourusername/nmt-visualizations/wiki)
-- 💬 **Discussion:** [GitHub Discussions](https://github.com/yourusername/nmt-visualizations/discussions)
+- 📧 **Email:** p.pabitrabiswas02@gmail.com
+- 🐛 **Issues:** [GitHub Issues](https://github.com/Pabitra-Biswas/nmt-visualizations/issues)
+- 📖 **Documentation:** [Project Wiki](https://github.com/Pabitra-Biswas/nmt-visualizations/wiki)
+- Model:**(https://huggingface.co/PABITRA07/hindi-english-wordpiece-nmt)
+- 💬 **Discussion:** 
 
 ---
 
@@ -686,23 +692,7 @@ npm start
 
 ---
 
-## 📊 Research Citation
 
-If you use this visualization tool in your research, please cite:
-
-```bibtex
-@misc{nmt-visualizations-2024,
-  title={Neural Machine Translation Research Visualizations: Comparative Analysis of Tokenization and Positional Encoding Strategies},
-  author={Your Name},
-  year={2024},
-  howpublished={\url{https://github.com/yourusername/nmt-visualizations}},
-  note={Interactive visualization tool for NMT research analysis}
-}
-```
-
----
-
-**⭐ Star this repository if it helped your research!**
 
 ---
 
